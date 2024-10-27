@@ -98,6 +98,19 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextDescricao" />
 
     <Button
+        android:id="@+id/btnSelecionarImagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="?attr/actionMenuTextColor"
+        android:text="Selecione a Imagem"
+        android:textAllCaps="false"
+        app:icon="?attr/actionModeCopyDrawable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNomedoArq" />
+
+    <Button
         android:id="@+id/buttonPublicar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -135,4 +148,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagemLivro3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelecionarImagem" />
 </androidx.constraintlayout.widget.ConstraintLayout>
